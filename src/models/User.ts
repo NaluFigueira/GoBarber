@@ -11,14 +11,17 @@ class User {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @Column() // por padrão é string
+  @Column()
   name: string;
 
-  @Column() // por padrão é string
+  @Column()
   email: string;
 
-  @Column() // por padrão é string
+  @Column()
   password: string;
+
+  @Column()
+  avatar: string;
 
   @CreateDateColumn()
   created_at: Date;
