@@ -1,13 +1,16 @@
 import React from 'react';
 
 import GlobalStyle from './styles/global';
+import SignIn from './pages/SignIn';
 // import { Container } from './styles';
 
 const src: React.FC = () => {
-  return <>
-    <h1>Hello World</h1>
-    <GlobalStyle />
-  </>;
-}
+  return (
+    <>
+      <SignIn />
+      <GlobalStyle />
+    </>
+  );
+};
 
 export default src;
