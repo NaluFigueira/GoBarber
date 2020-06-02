@@ -1,16 +1,16 @@
 import React from 'react';
 
 import GlobalStyle from './styles/global';
-import SignIn from './pages/SignIn';
-// import { Container } from './styles';
+// import SignIn from './pages/SignIn';
+import SignUp from './pages/SignUp';
 
-const src: React.FC = () => {
+const App: React.FC = () => {
   return (
     <>
-      <SignIn />
+      <SignUp />
       <GlobalStyle />
     </>
   );
 };
 
-export default src;
+export default App;
